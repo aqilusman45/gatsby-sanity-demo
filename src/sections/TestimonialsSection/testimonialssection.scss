@@ -1,0 +1,30 @@
+.testimonialssection_rich_text {
+  > div {
+    > p {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #f7f8f8;
+      opacity: 0.5;
+       
+    }
+  }
+}
+
+.testimonail_right_arrow{
+  right: calc(48% - 50px);
+}
+
+.reviews_card_text{
+  >div>div>div>div{
+    >p{
+      display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+    }
+  }
+}

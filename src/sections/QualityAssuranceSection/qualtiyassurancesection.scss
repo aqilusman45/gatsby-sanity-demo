@@ -1,0 +1,61 @@
+@use '../../styles/variables' as v;
+
+.qualityassurance_section_richText_subtext {
+  background: linear-gradient(180deg, #ffffff 50%, #001e2b 109.19%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-fill-color: transparent;
+  > h2 {
+    @media (max-width: 1024px) {
+      font-size: 25px;
+      line-height: 33.75px;
+    }
+    color: #ffffff;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67.5px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    text-align: center;
+    background: linear-gradient(180deg, #ffffff 38.89%, #001e2b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    em {
+      background: v.$background_Light_green_gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-style: normal;
+    }
+  }
+  > p {
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    text-align: center;
+    color: #f7f8f8;
+    opacity: 0.5;
+  }
+}
+
+.qualityassurance_footertext {
+  > h5 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+}
+.qualityassurance_footerbutton{
+  justify-content: center;
+  align-items: center;
+  
+}

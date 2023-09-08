@@ -1,0 +1,53 @@
+@use './variables' as v;
+html {
+  scroll-behavior: smooth;
+  // background-color: #001e2b;
+}
+
+.why_angle_bracket_text_gradient {
+  background: linear-gradient(180deg, #ffffff 50%, #001e2b 109.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero_section_heading_gradient {
+  background: v.$background_green_gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.slider-btn-border-right {
+  -webkit-mask: url(../images//angleBrackets-icons/left-arrow.svg) no-repeat;
+  mask: url(../images//angleBrackets-icons/left-arrow.svg) no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 17px;
+  height: 27px;
+  background-color: rgb(255, 255, 255);
+  &:hover {
+    background-color: #00ed64;
+  }
+  @media screen and (max-width: 768px) {
+    height: 25px;
+    width: 15px;
+   }
+}
+
+
+.slider-btn-border-left {
+  -webkit-mask: url(../images//angleBrackets-icons/right-arrow.svg) no-repeat;
+  mask: url(../images//angleBrackets-icons/right-arrow.svg) no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 17px;
+  height: 27px;
+  background-color: rgb(255, 255, 255);
+  &:hover {
+    background-color: #00ed64;
+  }
+  @media screen and (max-width: 768px) {
+   height: 25px;
+   width: 15px;
+  }
+}

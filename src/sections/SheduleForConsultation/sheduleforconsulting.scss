@@ -1,0 +1,49 @@
+.heading_green {
+  background: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #00ed64;
+}
+
+.shedule_for_consultation_richtext > div {
+  > h3 {
+    @media (min-width: 1024px) {
+      font-size: 35px;
+    }
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: left;
+    color: #ffffff;
+    em {
+      background: none;
+      font-style: normal;
+      -webkit-background-clip: text;
+      font-style: normal;
+      -webkit-text-fill-color: #00ed64;
+    }
+  }
+  > p {
+    @media (min-width: 1024px) {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: #f7f8f8;
+    opacity: 0.5;
+    margin-bottom: 80px;
+    margin-top: 32px;
+  }
+}
+
+.schedule_for_consultation_button {
+  background: none !important;
+  background-color: #00ed64 !important;
+  color: #001e2b !important;
+}

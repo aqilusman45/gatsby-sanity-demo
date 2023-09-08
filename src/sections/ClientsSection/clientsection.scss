@@ -1,0 +1,32 @@
+.client_main_container_selector{
+    div {
+        &:nth-child(1) {
+          > span {
+            &::after {
+              content: '+';
+            }
+          }
+        }
+        &:nth-child(2) {
+          > span {
+            &::after {
+              content: '+';
+            }
+          }
+        }
+        &:nth-child(3) {
+          > span {
+            &::after {
+              content: '+';
+            }
+          }
+        }
+        &:nth-child(4) {
+          > span {
+            &::before {
+              content: '#';
+            }
+          }
+        }
+}
+}

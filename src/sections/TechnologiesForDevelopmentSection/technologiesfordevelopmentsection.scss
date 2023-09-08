@@ -1,0 +1,45 @@
+.technologiessection_rich_text {
+  > div {
+    > p {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #f7f8f8;
+      opacity: 0.5;
+    }
+  }
+}
+
+.tabssroll{
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #21313C;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #aaedc6;
+  }
+}
+
+
+
+.technology_right_arrow{
+  right: calc(52% - 30px);
+
+  @media (min-width:1024px) {
+    right: calc(52% - 10px);
+  }
+  @media (min-width:1280px) {
+    right: calc(52% - 50px);
+  }
+  @media (min-width:1536px) {
+    right: calc(52% - 60px);
+  }
+}

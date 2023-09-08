@@ -1,0 +1,46 @@
+
+@use '../../styles/variables' as v;
+
+.development_scope_about_richText{
+    > p {
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify;
+        color: #f7f8f8;
+        opacity: 0.5;
+        margin-top: 16px;
+      }
+}
+
+.development_scope_text_richText{
+    > p {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        text-align: justify;
+        color: white;
+        margin-top: 16px;
+        em {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+            background: v.$background_Light_green_gradient;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-style: normal;
+          }
+          strong {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            color: white;
+            }
+    
+    }
+
+}

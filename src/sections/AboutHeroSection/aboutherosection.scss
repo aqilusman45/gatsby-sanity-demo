@@ -1,0 +1,40 @@
+@use '../../styles/variables' as v;
+.about_hero_section_richtext {
+  > div {
+    > h1 {
+      @media (min-width: 1024px) {
+        font-size: 70px;
+        line-height: 80px;
+      }
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 47px;
+      text-align: center;
+      color: #ffffff;
+      em {
+        background: v.$background_green_gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-style: normal;
+      }
+    }
+    > p {
+      @media (min-width: 1024px) {
+        font-size: 20px;
+        line-height: 32px;
+      }
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #f7f8f8;
+      opacity: 0.5;
+      margin-bottom: 5px;
+      margin-top: 32px;
+    }
+  }
+}

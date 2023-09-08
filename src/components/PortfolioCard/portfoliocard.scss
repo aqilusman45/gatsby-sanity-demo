@@ -1,0 +1,25 @@
+.portfolio_card_title{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+}
+.portfolio_card_richtext{
+    >p{
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+        color: #f7f8f8;
+        opacity: 0.5;
+    }
+}
+.protfolio_card{
+    .slick-list{
+        padding-left: 0px !important;
+    }
+}

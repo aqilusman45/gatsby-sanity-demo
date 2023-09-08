@@ -1,0 +1,46 @@
+.aboutglobe_text {
+  h3 {
+    @media (max-width: 1024px) {
+      font-size: 25px;
+      line-height: 33.75px;
+    }
+
+    font-size: 50px;
+    background: linear-gradient(180deg, #ffffff 46.21%, #001e2b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    em {
+      background: linear-gradient(180deg, #00ed64 46.21%, #001e2b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-style: normal;
+      font-family: 'Satoshi';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 68px;
+      @media (max-width: 1024px) {
+        font-size: 25px;
+        line-height: 33.75px;
+      }
+    }
+  }
+  p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}

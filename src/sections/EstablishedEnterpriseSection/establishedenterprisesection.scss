@@ -1,0 +1,19 @@
+.established_enterprise_rich_text{
+    >div{
+        >p {
+            @media (min-width :1024px) {
+                font-size: 18px;
+                line-height: 24px;                
+            }
+            font-family: 'Satoshi', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+    }
+}

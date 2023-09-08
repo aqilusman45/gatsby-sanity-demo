@@ -1,0 +1,37 @@
+.introsection_rich_text {
+      > p {
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #f7f8f8;
+        opacity: 0.5;
+      }
+    }
+
+    
+
+    // .services-introsection-container{
+
+    //   overflow: hidden;
+    // }
+
+    .services-introsection-container div{
+      overflow-x: scroll;
+      -ms-overflow-style: none;
+    }
+    .services-introsection-container div::-webkit-scrollbar{
+        display: none;
+    }
+    .services-introsection-container .rightarrow,
+    .services-introsection-container .lefttarrow {
+        top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+ .slider_arrows{
+  background: linear-gradient(to left,#001E2B 50%, transparent );
+ }

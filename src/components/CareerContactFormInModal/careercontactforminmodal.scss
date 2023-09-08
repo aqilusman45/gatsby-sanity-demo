@@ -1,0 +1,21 @@
+.careerform-input-button{
+    background: linear-gradient(
+        147.75deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.025) 100%,
+    );
+    border: none;
+    padding: 7px 7px;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    margin-right: 7px;
+    border: 1px solid white;
+    border-radius: 8px;
+
+  }
+
+  .custom-file-input::before {
+    content: 'Upload Your Resume' !important;
+  }  
+

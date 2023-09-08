@@ -1,0 +1,48 @@
+.bg_gradient{
+    background: linear-gradient(147.75deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.025) 100%);
+    backdrop-filter: blur(10px);
+}
+.PortfolioSection_heading{
+    @media (max-width: 1024px) {
+        font-size: 25px;
+        line-height: 33.75px;}
+    background: linear-gradient(180deg, #FFFFFF 50.89%, #001E2B 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-family: 'Satoshi', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 68px;
+}
+
+.portfoliosection_richtext{
+    // portfoliosection_richtext
+    font-family: 'Satoshi', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+
+color: #F7F8F8;
+
+opacity: 0.5;
+}
+
+.portfolio_button_horizontal_scroll{
+    &::-webkit-scrollbar {
+        height: 4px;
+      }
+      &::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: #21313C;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #aaedc6;
+      }
+      margin: 20px 0px;
+}

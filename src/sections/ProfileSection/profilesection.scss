@@ -1,0 +1,47 @@
+.profilesection_gradient_bg {
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+}
+
+.general_title_gradient {
+  background: linear-gradient(180deg, #ffffff 51.32%, #21313c 118.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.skills_gradient {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 1px 2px rgba(27, 31, 35, 0.05);
+  border-radius: 100px;
+}
+
+.profile_about_rich_text {
+  > div {
+    > p {
+      font-family: 'Satoshi', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #f7f8f8;
+      opacity: 0.5;
+    }
+  }
+}
+
+.github-icon{
+  -webkit-mask: url(../../images//angleBrackets-icons/footer-github-white-icon.svg) no-repeat
+  100% 100%;
+mask: url(../../images//angleBrackets-icons/footer-github-white-icon.svg) no-repeat 100%
+  100%;
+-webkit-mask-size: cover;
+mask-size: cover;
+width: 14px;
+height: 20px;
+background-color: rgb(255, 255, 255);
+}

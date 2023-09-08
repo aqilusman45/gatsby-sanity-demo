@@ -1,0 +1,331 @@
+// .blogsPostSection_rawbody {
+//   > h1 {
+//     @media (max-width: 1024px) {
+//       font-size: 35px;
+//       line-height: 50px;
+//     }
+//     font-size: 70px;
+//     line-height: 80px;
+//     font-weight: bold;
+//     font-family: 'Satoshi', sans-serif;
+//     color: white;
+//     opacity: 0.5;
+
+//   }
+
+//   > h2 {
+//     @media (max-width: 1024px) {
+//       font-size: 30px;
+//       line-height: 45px;
+//     }
+//     font-size: 50px;
+//     font-weight: bold;
+//     font-family: 'Satoshi';
+//     color: white;
+//     opacity: 0.5;
+
+//   }
+
+//   > h3 {
+//     @media (max-width: 1024px) {
+//       font-size: 25px;
+//       line-height: 33.75px;
+//     }
+//     font-size: 30px;
+//     font-weight: bold;
+//     font-family: 'Satoshi';
+//     color: white;
+//     opacity: 0.5;
+
+//   }
+//   > h4 {
+//     font-size: 24px;
+//     font-weight: bold;
+//     font-family: 'Satoshi';
+//     color: white;
+//     opacity: 0.5;
+//   }
+//   > h5 {
+//     font-size: 22px;
+//     font-weight: bold;
+//     font-family: 'Satoshi';
+//     color: white;
+//     opacity: 0.5;
+//   }
+//   > h6 {
+//     font-size: 18px;
+//     font-weight: bold;
+//     font-family: satoshi;
+//     color: white;
+//     opacity: 0.5;
+//   }
+
+//   > p {
+//     font-family: 'Satoshi';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 24px;
+//     color: #f7f8f8;
+//     opacity: 0.5;
+//     >a {
+//       color: #1aff79 ;
+//       opacity: 1;
+//       font-weight: 500;
+//       font-family: 'Satoshi';
+//       font-style: normal;
+//       font-size: 16px;
+//       line-height: 24px;
+//       &:hover{
+//         color: white ;
+//           text-decoration: underline;
+//           opacity: 0.5;
+//       }
+//     }
+//   }
+
+//   ul {
+//     list-style: disc;
+//     list-style: inside;
+//     > li {
+//       font-family: 'Satoshi';
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 16px;
+//       line-height: 24px;
+//       color: #f7f8f8;
+//       opacity: 0.5;
+//       >a {
+//         color: white;
+//         opacity: 1;
+//         font-weight: 500;
+//         font-family: 'Satoshi';
+//         font-style: normal;
+//         font-size: 16px;
+//         line-height: 24px;
+//         &:hover{
+//             text-decoration: underline;
+//             opacity: 0.5;
+//         }
+//       }
+//     }
+//   }
+
+//   ol {
+//     list-style: disc;
+//     list-style: inside;
+//     > li {
+//       font-family: 'Satoshi';
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 16px;
+//       line-height: 24px;
+//       color: #f7f8f8;
+//       opacity: 0.5;
+//       >a {
+//         color: white;
+//         opacity: 1;
+//         font-weight: 500;
+//         font-family: 'Satoshi';
+//         font-style: normal;
+//         font-size: 16px;
+//         line-height: 24px;
+//         &:hover{
+//             text-decoration: underline;
+//             opacity: 0.5;
+//         }
+//       }
+//     }
+//   }
+//   >a {
+//     color: #f7f8f8;
+//     opacity: 1;
+//     font-weight: 500;
+//     font-family: 'Satoshi';
+//     font-style: normal;
+//     font-size: 16px;
+//     line-height: 24px;
+//     &:hover{
+//         text-decoration: underline;
+//         opacity: 0.5;
+//     }
+//   }
+// }
+
+.blogsPostSection_rawbody {
+  img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+  }
+  h1 {
+    color: white;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    font-family: 'Satoshi', sans-serif;
+    strong {
+      color: white;
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 51px;
+      font-family: 'Satoshi', sans-serif;
+    }
+  }
+  h2 {
+    @media (min-width: 1024px) {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+    }
+    color: white;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    font-family: 'Satoshi', sans-serif;
+    strong {
+      @media (min-width: 1024px) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+      }
+      color: white;
+      margin-bottom: 24px;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 41px;
+      font-family: 'Satoshi', sans-serif;
+    }
+  }
+  h3 {
+    strong {
+      @media (min-width: 1024px) {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+      }
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      color: white;
+      margin-bottom: 24px;
+      font-family: 'Satoshi', sans-serif;
+    }
+    @media (min-width: 1024px) {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+    }
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: white;
+    margin-bottom: 24px;
+    font-family: 'Satoshi', sans-serif;
+  }
+  h5 {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 12px;
+    font-family: 'Satoshi', sans-serif;
+    strong {
+      font-size: 20px;
+      margin-top: 40px;
+      font-weight: 700;
+      line-height: 30px;
+      color: white;
+      margin-bottom: 12px;
+      font-family: 'Satoshi', sans-serif;
+    }
+  }
+  h4 {
+    strong {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 34px;
+      margin-top: 40px;
+      color: white;
+      margin-bottom: 12px;
+      font-family: 'Satoshi', sans-serif;
+    }
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 12px;
+    font-family: 'Satoshi', sans-serif;
+  }
+  h6 {
+    strong {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 28px;
+      color: white;
+      margin-bottom: 24px;
+      font-family: 'Satoshi', sans-serif;
+    }
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 24px;
+    font-family: 'Satoshi', sans-serif;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 8px;
+  }
+  blockquote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 8px;
+  }
+  ul {
+    li {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: white;
+      opacity: 0.5;
+      font-family: 'Satoshi', sans-serif;
+      margin-bottom: 8px;
+    }
+  }
+  ol {
+    li {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: white;
+      opacity: 0.5;
+      font-family: 'Satoshi', sans-serif;
+      margin-bottom: 8px;
+    }
+  }
+  a {
+    color: #00ed64;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Satoshi', sans-serif;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

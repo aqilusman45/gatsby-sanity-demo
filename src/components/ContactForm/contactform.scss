@@ -1,0 +1,68 @@
+.contact_form_main_container {
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+}
+
+.contact_form_feature_icon {
+  background: linear-gradient(#ffffff1a, #ffffff0d) padding-box,
+    linear-gradient(to bottom, #ffffff1a, #ffffff0d) border-box;
+  border: 14px solid transparent;
+}
+
+.contact_form_input_bg_gradient {
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+// .input_checkbox_container {
+//   gap: 0.5em;
+//   input[type='checkbox'] {
+//     /* Add if not using autoprefixer */
+//     -webkit-appearance: none;
+//     appearance: none;
+//     /* For iOS < 15 to remove gradient background */
+//     background-color: #ffffff00;
+//     /* Not removed via appearance */
+//     margin: 0;
+//     font: inherit;
+//     color: currentColor;
+//     width: 18px;
+//     display: grid;
+//     place-content: center;
+//     height: 18px;
+//     border: 2.5px solid #16313c;
+//     border-radius: 3px;
+//     // transform: translateY(-0.075em);
+//     &:checked {
+//       border: none;
+//       background-color: #00ed64;
+//     }
+//   }
+
+//   input::before {
+//     content: '';
+//     width: 13.2px;
+//     height: 13.2px;
+//     display: block;
+//     clip-path: polygon(28% 38%, 41% 53%, 75% 24%, 86% 38%, 40% 78%, 15% 50%);
+//     transform: scale(0);
+//     background-color: #001e2b;
+//     transition: 120ms transform ease-in-out;
+//   }
+//   input:checked::before {
+//     transform: scale(1);
+//   }
+//   input:checked ~ p {
+//     color: white;
+//   }
+// }

@@ -1,0 +1,44 @@
+.heading_gradient{
+    background: linear-gradient(180deg, #ffffff 51.32%, #21313c 118.72%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+}
+
+.sass_tools_section_rich_text{
+    margin-top: 16px;
+    > p {
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #f7f8f8;
+        opacity: 0.5;
+      }
+}
+
+
+
+.sasstools_sroll{
+
+    &::-webkit-scrollbar {
+      height: 4px;
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 5px;
+      background-color: #21313C;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #aaedc6;
+    }
+  }
+
+  .custom_center{
+    @media (min-width:640px) {
+        justify-content: center;        
+    }
+  }

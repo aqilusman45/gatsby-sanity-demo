@@ -1,0 +1,57 @@
+.accordion_rich_text {
+  padding: 0px;
+  max-height: 0;
+  transition: all 0.4s;
+  overflow: hidden;
+  border: 0px;
+  opacity: 0;
+  height: fit-content;
+  > div {
+    p {
+      font-size: 16px;
+      line-height: 22px;
+
+      font-weight: 400;
+      color: #f7f8f8;
+      font-family: 'Satoshi', sans-serif;
+      a {
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.active_accordian_text {
+  max-height: 700px;
+  opacity: 1;
+  padding: 16px 0 32px 0px;
+  overflow: visible;
+  transition: all 0.5s;
+}
+
+.faqs_plus_icon {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-size: 24px 24px;
+  display: block;
+  mask-image: url('../../images/angleBrackets-icons/plus-icon.svg');
+  -webkit-mask-image: url('../../images/angleBrackets-icons/plus-icon.svg');
+}
+.faqs_minus_icon {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-size: 24px 24px;
+  display: block;
+  mask-image: url('../../images/angleBrackets-icons/minus-icon.svg');
+  -webkit-mask-image: url('../../images/angleBrackets-icons/minus-icon.svg');
+}
+
+.bg-light-gradient {
+  background: linear-gradient(
+    147.75deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+  backdrop-filter: blur(10px);
+}

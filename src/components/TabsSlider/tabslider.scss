@@ -1,0 +1,54 @@
+
+.Tabs_Slider_Container{
+
+  .slick-list {
+    margin: 0 20px !important;
+  }
+}
+
+
+
+.next_arrow {
+  -webkit-mask: url(../../images//angleBrackets-icons/left-arrow.svg) no-repeat
+    100% 100%;
+  mask: url(../../images//angleBrackets-icons/left-arrow.svg) no-repeat 100%
+    100%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 12px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.next_arrow:hover {
+  -webkit-mask: url(../../images//angleBrackets-icons/left-arrow.svg) no-repeat
+    100% 100%;
+  mask: url(../../images//angleBrackets-icons/left-arrow.svg) no-repeat 100%
+    100%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 12px;
+  height: 20px;
+  background-color: #00ed64;
+}
+.prev_arrow {
+  -webkit-mask: url(../../images//angleBrackets-icons/right-arrow.svg) no-repeat
+    100% 100%;
+  mask: url(../../images//angleBrackets-icons/right-arrow.svg) no-repeat 100%
+    100%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 12px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.prev_arrow:hover {
+  -webkit-mask: url(../../images//angleBrackets-icons/right-arrow.svg) no-repeat
+    100% 100%;
+  mask: url(../../images//angleBrackets-icons/right-arrow.svg) no-repeat 100%
+    100%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  width: 12px;
+  height: 20px;
+  background-color: #00ed64;
+}

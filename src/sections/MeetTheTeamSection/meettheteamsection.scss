@@ -1,0 +1,96 @@
+.angle_brackets_developer_slider {
+  > .slick-list {
+    padding-left: 0px !important;
+  }
+}
+
+.MeetTheTeamSection_heading{
+  h1{
+    font-family: "Satoshi", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #f7f8f8;
+    opacity: 0.5;
+    margin-top: 32px;
+  }
+}
+
+.MeetTheTeamSection_rich_text {
+  h3 {
+    @media (min-width: 1024px) {
+      font-size: 70px;
+      line-height: 80px;
+    }
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+    em{
+      font-style: normal;
+      background: linear-gradient(180deg, #00ed64 -21.67%, #21313c 108.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+  }
+
+  >p{
+    font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #f7f8f8;
+  opacity: 0.5;
+  margin-top: 32px;
+  }
+
+  // > p {
+  //     font-family: 'Satoshi', sans-serif;
+  //     font-style: normal;
+  //     font-weight: 400;
+  //     font-size: 16px;
+  //     line-height: 22px;
+  //     text-align: center;
+  //     color: #f7f8f8;
+  //     opacity: 0.5;
+  // }
+}
+
+.tabssroll_team {
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #21313c;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #aaedc6;
+  }
+}
+
+.tabscroll_developers {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+}
+
+.tabscroll_developers::-webkit-scrollbar {
+  display: none;
+}
+
+.team_card_text {
+  > p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
