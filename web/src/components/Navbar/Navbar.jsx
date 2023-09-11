@@ -395,22 +395,7 @@ export const Navbar = ({
                       : 'hidden bg-[#21313C]'
                   )}
                 >
-                  <li>
-                    <Link
-                      to="/about-us"
-                      className="text-base lg:text-sm font-medium font-satoshi leading-[21.6px] lg:leading-[18.9px] text-white hover:text-primary_green_light max-w-max relative navbar_list_underline"
-                    >
-                      About Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/careers"
-                      className="hover:text-primary_green_light text-base lg:text-sm font-medium font-satoshi leading-[21.6px] lg:leading-[18.9px] text-white max-w-max relative navbar_list_underline"
-                    >
-                      Careers
-                    </Link>
-                  </li>
+                 
                   <li>
                     <Link
                       to="/reviews"

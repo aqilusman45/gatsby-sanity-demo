@@ -76,22 +76,7 @@ export const Footer = ({ otherClasses, services, technologies }) => {
                 Testimonial
               </Link>
             </li>
-            <li className="mb-2">
-              <Link
-                to="/about-us"
-                className="hover:text-white hover:opacity-100 font-satoshi text-base lg:text-sm leading-[21.6px] lg:leading-[19px] text-white opacity-50 font-normal"
-              >
-                About
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                to="/careers"
-                className=" hover:text-white hover:opacity-100  font-satoshi text-base lg:text-sm leading-[21.6px] lg:leading-[19px] text-white opacity-50 font-normal"
-              >
-                Careers
-              </Link>
-            </li>
+           
             <li className="mb-2">
               <Link
                 to="/meet-the-team"
