@@ -12,6 +12,8 @@ const isProd = process.env.NODE_ENV === 'production'
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 
+const { NODE_ENV } = process.env
+
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -46,19 +48,37 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-robots-txt',
+      resolveEnv: () => NODE_ENV,
       options: {
-        policy: [
-          { userAgent: '*', allow: '/' },
-          { userAgent: '*', disallow: ['/*.js'] },
-        ],
+        resolveEnv: () => NODE_ENV,
+        host:  'https://www.anglebrakcets.io',
+        env: {
+          development: {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+          },
+          'branch-deploy': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null,
+          },
+          'deploy-preview': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null,
+          },
+          production: {
+            host: 'https://www.anglebrakcets.io',
+            policy: [{ userAgent: '*', allow: '/' }],
+          },
+        },
       },
     },
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: "G-JVB593L7NM",
+        id: 'G-JVB593L7NM',
         includeInDevelopment: false,
-        routeChangeEventName: "route-change",
+        routeChangeEventName: 'route-change',
         enableWebVitalsTracking: true,
       },
     },
