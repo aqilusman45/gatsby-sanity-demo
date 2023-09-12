@@ -68,7 +68,7 @@ module.exports = {
           },
           production: {
             host: 'https://www.anglebrakcets.io',
-            policy: [{ userAgent: '*', allow: '/' }],
+            policy: [{ userAgent: '*', disallow: ['/'] }],
           },
         },
       },
