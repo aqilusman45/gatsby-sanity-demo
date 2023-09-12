@@ -378,7 +378,7 @@ export const Navbar = ({
               </button>
               <div className="hidden lg:block">
                 <Link
-                  to="/about-us"
+                  to="#"
                   className="cursor-pointer group-hover:text-primary_green px-6 py-4 lg:px-0 lg:py-0 lg:p-0 text-base lg:text-sm font-normal font-satoshi leading-[21.6px] lg:leading-[18.9px] text-white flex items-center justify-between lg:justify-start gap-2 w-full lg:w-auto"
                 >
                   Company

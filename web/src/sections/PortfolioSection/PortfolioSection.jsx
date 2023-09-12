@@ -59,17 +59,12 @@ export const PortfolioSection = ({ otherClasses, title, _rawSubText }) => {
     ),
   ]
 
-  const [tabs, settabs] = useState('all')
-  const [activeTabs, setActiveTabs] = useState('all')
+  const [tabs, settabs] = useState(allTabs[0])
+  const [activeTabs, setActiveTabs] = useState(allTabs[0])
   const [defaultResponse, setDefaultResponse] = useState(nodes)
   const tabsHandler = (type) => {
     settabs(type)
     setActiveTabs(type)
-  }
-  const allTabsHandler = () => {
-    setDefaultResponse(nodes)
-    settabs('all')
-    setActiveTabs('all')
   }
 
   const [nowIndex, setNowIndex] = useState(0)
